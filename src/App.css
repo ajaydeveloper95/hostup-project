@@ -1,0 +1,11 @@
+.scaleAnimate{
+  transform: scaleY(1);
+  transition: all .3s ease;
+}
+.scaleAnimate2{
+  transform: scaleY(0);
+}
+
+.top-0{
+  top: 0;
+}
