@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import getFasterImg1 from "../../assets/images/resources/get-faster-img-1.png";
 
 function GetFaster() {
   return (
@@ -9,7 +10,7 @@ function GetFaster() {
           <div className="get-faster__left">
             <div className="get-faster__img">
               <img
-                src="assets/images/resources/get-faster-img-1.png"
+                src={getFasterImg1}
                 alt="img"
               />
             </div>

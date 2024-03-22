@@ -1,4 +1,7 @@
-import React from 'react'
+import React from 'react';
+import pricingImg1 from "../../assets/images/resources/pricing-5-1.png"
+import pricingImg2 from "../../assets/images/resources/pricing-5-2.png"
+import pricingImg3 from "../../assets/images/resources/pricing-5-3.png"
 
 function PricingFive() {
   return (
@@ -42,7 +45,7 @@ function PricingFive() {
                   <p>SAVE 30% OVER MONTH</p>
                 </div>
                 <div className="pricing-five__img">
-                  <img src="assets/images/resources/pricing-5-1.png" alt="img" />
+                  <img src={pricingImg1} alt="img" />
                 </div>
                 <h3 className="pricing-five__title">Hostup Press Basic</h3>
                 <p className="pricing-five__text">
@@ -179,7 +182,7 @@ function PricingFive() {
                   <p>SAVE 30% OVER MONTH</p>
                 </div>
                 <div className="pricing-five__img">
-                  <img src="assets/images/resources/pricing-5-2.png" alt="img" />
+                  <img src={pricingImg2} alt="img" />
                 </div>
                 <h3 className="pricing-five__title">Hostup Press Plus</h3>
                 <p className="pricing-five__text">
@@ -316,7 +319,7 @@ function PricingFive() {
                   <p>SAVE 30% OVER MONTH</p>
                 </div>
                 <div className="pricing-five__img">
-                  <img src="assets/images/resources/pricing-5-3.png" alt="img" />
+                  <img src={pricingImg3} alt="img" />
                 </div>
                 <h3 className="pricing-five__title">Hostup Press Pro</h3>
                 <p className="pricing-five__text">
@@ -457,7 +460,7 @@ function PricingFive() {
                   <p>SAVE 30% OVER MONTH</p>
                 </div>
                 <div className="pricing-five__img">
-                  <img src="assets/images/resources/pricing-5-1.png" alt="img" />
+                  <img src={pricingImg1} alt="img" />
                 </div>
                 <h3 className="pricing-five__title">Hostup Press Basic</h3>
                 <p className="pricing-five__text">
@@ -594,7 +597,7 @@ function PricingFive() {
                   <p>SAVE 30% OVER MONTH</p>
                 </div>
                 <div className="pricing-five__img">
-                  <img src="assets/images/resources/pricing-5-2.png" alt="img" />
+                  <img src={pricingImg2} alt="img" />
                 </div>
                 <h3 className="pricing-five__title">Hostup Press Plus</h3>
                 <p className="pricing-five__text">
@@ -731,7 +734,7 @@ function PricingFive() {
                   <p>SAVE 30% OVER MONTH</p>
                 </div>
                 <div className="pricing-five__img">
-                  <img src="assets/images/resources/pricing-5-3.png" alt="img" />
+                  <img src={pricingImg3} alt="img" />
                 </div>
                 <h3 className="pricing-five__title">Hostup Press Pro</h3>
                 <p className="pricing-five__text">

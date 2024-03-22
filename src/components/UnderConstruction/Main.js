@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import underConstruction1 from "../../assets/images/resources/under-construction-1.png"
 
 function Main() {
   return (
@@ -13,7 +14,7 @@ function Main() {
           data-wow-duration="1500ms"
         >
           <img
-            src="assets/images/resources/under-construction-1.png"
+            src={underConstruction1}
             className="float-bob-y"
             alt="img"
           />

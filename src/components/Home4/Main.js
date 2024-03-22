@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Header from "../Header4/Main";
-import Footer from "../Footer/Main";
+import Footer from "../Footer2/Main";
 import MobileHeader from "../MobileHeader/Main";
 import Banner from "./Banner";
 import Pricing from "./Pricing";

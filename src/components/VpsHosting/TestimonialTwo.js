@@ -1,4 +1,15 @@
-import React from 'react'
+import React from 'react';
+
+import backgroundTwoBg from "../../assets/images/background/testimonial-two-bg.png"
+import TestimonialImg21 from "../../assets/images/testimonial/testimonial-2-1.png"
+import TestimonialImg22 from "../../assets/images/testimonial/testimonial-2-2.png"
+import TestimonialImg23 from "../../assets/images/testimonial/testimonial-2-3.png"
+import TestimonialImg24 from "../../assets/images/testimonial/testimonial-2-4.png"
+import TestimonialImg25 from "../../assets/images/testimonial/testimonial-2-5.png"
+import TestimonialImg26 from "../../assets/images/testimonial/testimonial-2-6.png"
+import TestimonialImg27 from "../../assets/images/testimonial/testimonial-2-7.png"
+import TestimonialImg28 from "../../assets/images/testimonial/testimonial-2-8.png"
+import TestimonialImg29 from "../../assets/images/testimonial/testimonial-2-9.png"
 
 function TestimonialTwo() {
   return (
@@ -7,7 +18,7 @@ function TestimonialTwo() {
       className="testimonial-two__bg"
       style={{
         backgroundImage:
-          "url(assets/images/background/testimonial-two-bg.png)",
+          `url(${backgroundTwoBg})`,
       }}
     />
     <h2 className="testimonial-two__top-title">
@@ -72,7 +83,7 @@ function TestimonialTwo() {
                 </div>
                 <div className="testimonial-two__client-img">
                   <img
-                    src="assets/images/testimonial/testimonial-2-1.png"
+                    src={TestimonialImg21}
                     alt="img"
                   />
                 </div>
@@ -110,7 +121,7 @@ function TestimonialTwo() {
                 </div>
                 <div className="testimonial-two__client-img">
                   <img
-                    src="assets/images/testimonial/testimonial-2-2.png"
+                    src={TestimonialImg22}
                     alt="img"
                   />
                 </div>
@@ -148,7 +159,7 @@ function TestimonialTwo() {
                 </div>
                 <div className="testimonial-two__client-img">
                   <img
-                    src="assets/images/testimonial/testimonial-2-3.png"
+                    src={TestimonialImg23}
                     alt="img"
                   />
                 </div>
@@ -186,7 +197,7 @@ function TestimonialTwo() {
                 </div>
                 <div className="testimonial-two__client-img">
                   <img
-                    src="assets/images/testimonial/testimonial-2-4.png"
+                    src={TestimonialImg24}
                     alt="img"
                   />
                 </div>
@@ -224,7 +235,7 @@ function TestimonialTwo() {
                 </div>
                 <div className="testimonial-two__client-img">
                   <img
-                    src="assets/images/testimonial/testimonial-2-5.png"
+                    src={TestimonialImg25}
                     alt="img"
                   />
                 </div>
@@ -290,7 +301,7 @@ function TestimonialTwo() {
                 </div>
                 <div className="testimonial-two__client-img">
                   <img
-                    src="assets/images/testimonial/testimonial-2-6.png"
+                    src={TestimonialImg26}
                     alt="img"
                   />
                 </div>
@@ -328,7 +339,7 @@ function TestimonialTwo() {
                 </div>
                 <div className="testimonial-two__client-img">
                   <img
-                    src="assets/images/testimonial/testimonial-2-7.png"
+                    src={TestimonialImg27}
                     alt="img"
                   />
                 </div>
@@ -366,7 +377,7 @@ function TestimonialTwo() {
                 </div>
                 <div className="testimonial-two__client-img">
                   <img
-                    src="assets/images/testimonial/testimonial-2-8.png"
+                    src={TestimonialImg28}
                     alt="img"
                   />
                 </div>
@@ -404,7 +415,7 @@ function TestimonialTwo() {
                 </div>
                 <div className="testimonial-two__client-img">
                   <img
-                    src="assets/images/testimonial/testimonial-2-9.png"
+                    src={TestimonialImg29}
                     alt="img"
                   />
                 </div>
@@ -442,7 +453,7 @@ function TestimonialTwo() {
                 </div>
                 <div className="testimonial-two__client-img">
                   <img
-                    src="assets/images/testimonial/testimonial-2-1.png"
+                    src={TestimonialImg21}
                     alt="img"
                   />
                 </div>

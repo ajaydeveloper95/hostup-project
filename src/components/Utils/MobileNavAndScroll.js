@@ -1,38 +1,8 @@
 import React from "react";
-import TopOffer from "../TopOffer/TopOffer";
-import Header from "../Header/Main";
-import Footer from "../Footer/Main";
-import PageBannerThree from "./PageBannerThree";
-import PricingSix from "./PricingSix";
-import PayLess from "./PayLess";
-import DataBase from "./DataBase";
-import FeatureThree from "./FeatureThree";
-import Competitors from "./Competitors";
-import TestimonialTwo from "./TestimonialTwo";
-import DataBaseTwo from "./DataBaseTwo";
-import Faq from "./Faq";
-import LogoImg from "../../assets/images/logo.png"
 
-function Main() {
+function MobileNavAndScroll() {
   return (
     <>
-      <div className="custom-cursor__cursor" />
-      <div className="custom-cursor__cursor-two" />
-      <TopOffer />
-      <div className="page-wrapper">
-        <Header />
-        <PageBannerThree />
-        <PricingSix />
-        <PayLess />
-        <DataBase />
-        <FeatureThree />
-        <Competitors />
-        <TestimonialTwo />
-        <DataBaseTwo />
-        <Faq />
-        <Footer />
-      </div>
-      {/* /.page-wrapper */}
       <div className="mobile-nav__wrapper">
         <div className="mobile-nav__overlay mobile-nav__toggler" />
         {/* /.mobile-nav__overlay */}
@@ -43,12 +13,7 @@ function Main() {
           </a>
           <div className="logo-box">
             <a href="index.html" aria-label="logo image">
-              <img
-                src={LogoImg}
-                width={106}
-                height={36}
-                alt="Hostup"
-              />
+              <img src={LogoImg} width={106} height={36} alt="Hostup" />
             </a>
           </div>
           {/* /.logo-box */}
@@ -95,14 +60,11 @@ function Main() {
         </div>
         {/* /.mobile-nav__content */}
       </div>
-      {/* /.mobile-nav__wrapper */}
       <a href="#" data-target="html" className="scroll-to-target scroll-to-top">
         <i className="fa fa-angle-up" />
       </a>
-      {/* plugin js */}
-      {/* template js */}
     </>
   );
 }
 
-export default Main;
+export default MobileNavAndScroll;

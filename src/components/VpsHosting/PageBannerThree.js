@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import BannerThreeImg3 from "../../assets/images/resources/page-banner-three-img-3.png"
 
 function PageBannerThree() {
   return (
@@ -55,7 +56,7 @@ function PageBannerThree() {
           <div className="page-banner-three__right">
             <div className="page-banner-three__img float-bob-y">
               <img
-                src="assets/images/resources/page-banner-three-img-3.png"
+                src={BannerThreeImg3}
                 alt="img"
               />
             </div>

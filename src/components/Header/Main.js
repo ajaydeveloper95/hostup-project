@@ -18,15 +18,15 @@ const Header = ({setactive}) => {
                                 <Link to="/">Home</Link>
                                 <ul>
                                     <li><Link to="/">Home One</Link></li>
-                                    <li><Link to="/home2">Home Two</Link></li>
-                                    <li><Link to="/home3">Home Three</Link></li>
-                                    <li><Link to="/home4">Home Four</Link></li>
+                                    <li><Link to="/index2">Home Two</Link></li>
+                                    <li><Link to="/index3">Home Three</Link></li>
+                                    <li><Link to="/index4">Home Four</Link></li>
                                     <li className="menu-item-has-children"><Link to="/">Header Styles</Link>
                                         <ul>
                                             <li><Link to="/">Header One</Link></li>
-                                            <li><Link to="/home2">Header Two</Link></li>
-                                            <li><Link to="/home3">Header Three</Link></li>
-                                            <li><Link to="/home4">Header Four</Link></li>
+                                            <li><Link to="/index2">Header Two</Link></li>
+                                            <li><Link to="/index3">Header Three</Link></li>
+                                            <li><Link to="/index4">Header Four</Link></li>
                                         </ul>
                                     </li>
                                 </ul>

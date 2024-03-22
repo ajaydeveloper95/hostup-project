@@ -10,6 +10,7 @@ import SupportMe from "./SupportMe";
 import TestimonialOne from "./TestimonialOne";
 import FeaturesFour from "./FeaturesFour";
 import Faq from "./Faq";
+import LogoImg from "../../assets/images/logo.png";
 
 function Main() {
   return (
@@ -29,7 +30,6 @@ function Main() {
         <Faq />
         <Footer />
       </div>
-      {/* /.page-wrapper */}
       <div className="mobile-nav__wrapper">
         <div className="mobile-nav__overlay mobile-nav__toggler" />
         {/* /.mobile-nav__overlay */}
@@ -40,12 +40,7 @@ function Main() {
           </a>
           <div className="logo-box">
             <a href="index.html" aria-label="logo image">
-              <img
-                src="assets/images/logo.png"
-                width={106}
-                height={36}
-                alt="Hostup"
-              />
+              <img src={LogoImg} width={106} height={36} alt="Hostup" />
             </a>
           </div>
           {/* /.logo-box */}
@@ -92,12 +87,9 @@ function Main() {
         </div>
         {/* /.mobile-nav__content */}
       </div>
-      {/* /.mobile-nav__wrapper */}
       <a href="#" data-target="html" className="scroll-to-target scroll-to-top">
         <i className="fa fa-angle-up" />
       </a>
-      {/* plugin js */}
-      {/* template js */}
     </>
   );
 }

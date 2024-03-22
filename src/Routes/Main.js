@@ -7,6 +7,7 @@ import Home4 from "../components/Home4/Main";
 import About from "../components/About/Main";
 import Blog from "../components/Blog/Main";
 import BlogDetails from "../components/BlogDetails/Main";
+import CloudHosting from "../components/CloudHosting/Main";
 import ComparePricing from "../components/ComparePricing/Main";
 import Contact from "../components/Contact/Main";
 import DataCenter from "../components/DataCenter/Main";
@@ -34,7 +35,7 @@ const Routing = () => {
       <Route path="/about" element={<About />} />
       <Route path="/blog" element={<Blog />} />
       <Route path="/blog-details" element={<BlogDetails />} />
-      <Route path="/cloud-hosting" element={<Blog />} />
+      <Route path="/cloud-hosting" element={<CloudHosting />} />
       <Route path="/compare-pricing" element={<ComparePricing />} />
       <Route path="/contact" element={<Contact />} />
       <Route path="/data-center" element={<DataCenter />} />

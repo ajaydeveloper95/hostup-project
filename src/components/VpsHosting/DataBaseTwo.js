@@ -1,4 +1,7 @@
-import React from 'react'
+import React from 'react';
+import dataBaseIcon1 from "../../assets/images/icons/database-two-icon-1.png"
+import dataBaseIcon2 from "../../assets/images/icons/database-two-icon-2.png"
+import databaseShape2 from "../../assets/images/shapes/database-two-shape-1.png"
 
 function DataBaseTwo() {
   return (
@@ -7,7 +10,7 @@ function DataBaseTwo() {
       className="database-two__shape float-bob-y"
       style={{
         backgroundImage:
-          "url(assets/images/shapes/database-two-shape-1.png)",
+          `url(${databaseShape2})`,
       }}
     />
     <div className="container">
@@ -20,7 +23,7 @@ function DataBaseTwo() {
           <div className="database-two__single">
             <div className="database-two__icon">
               <img
-                src="assets/images/icons/database-two-icon-1.png"
+                src={dataBaseIcon1}
                 alt="img"
               />
             </div>
@@ -47,7 +50,7 @@ function DataBaseTwo() {
           <div className="database-two__single">
             <div className="database-two__icon">
               <img
-                src="assets/images/icons/database-two-icon-2.png"
+                src={dataBaseIcon2}
                 alt="img"
               />
             </div>

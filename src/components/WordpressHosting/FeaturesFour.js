@@ -1,4 +1,11 @@
-import React from 'react'
+import React from 'react';
+import featureFourBg from "../../assets/images/background/feature-four-bg.png"
+import featureFourIcon1 from "../../assets/images/icons/feature-four-icon-1.png"
+import featureFourIcon2 from "../../assets/images/icons/feature-four-icon-2.png"
+import featureFourIcon3 from "../../assets/images/icons/feature-four-icon-3.png"
+import featureFourIcon4 from "../../assets/images/icons/feature-four-icon-4.png"
+import featureFourIcon5 from "../../assets/images/icons/feature-four-icon-5.png"
+import featureFourIcon6 from "../../assets/images/icons/feature-four-icon-6.png"
 
 function FeaturesFour() {
   return (
@@ -6,7 +13,7 @@ function FeaturesFour() {
     <div
       className="feature-four__bg"
       style={{
-        backgroundImage: "url(assets/images/background/feature-four-bg.png)"
+        backgroundImage: `url(${featureFourBg})`
       }}
     ></div>
     <div className="container">
@@ -24,7 +31,7 @@ function FeaturesFour() {
         <div className="col-xl-4 col-lg-6 col-md-6">
           <div className="feature-four__single">
             <div className="feature-four__icon">
-              <img src="assets/images/icons/feature-four-icon-1.png" alt="img" />
+              <img src={featureFourIcon1} alt="img" />
             </div>
             <h3 className="feature-four__title">
               Managed and automated tasks
@@ -40,7 +47,7 @@ function FeaturesFour() {
         <div className="col-xl-4 col-lg-6 col-md-6">
           <div className="feature-four__single">
             <div className="feature-four__icon">
-              <img src="assets/images/icons/feature-four-icon-2.png" alt="img" />
+              <img src={featureFourIcon2} alt="img" />
             </div>
             <h3 className="feature-four__title">
               Built-in speed and performance
@@ -56,7 +63,7 @@ function FeaturesFour() {
         <div className="col-xl-4 col-lg-6 col-md-6">
           <div className="feature-four__single">
             <div className="feature-four__icon">
-              <img src="assets/images/icons/feature-four-icon-3.png" alt="img" />
+              <img src={featureFourIcon3} alt="img" />
             </div>
             <h3 className="feature-four__title">24-hour malware scans</h3>
             <p className="feature-four__text">
@@ -70,7 +77,7 @@ function FeaturesFour() {
         <div className="col-xl-4 col-lg-6 col-md-6">
           <div className="feature-four__single">
             <div className="feature-four__icon">
-              <img src="assets/images/icons/feature-four-icon-4.png" alt="img" />
+              <img src={featureFourIcon4} alt="img" />
             </div>
             <h3 className="feature-four__title">
               Daily backups with 1-click restore
@@ -86,7 +93,7 @@ function FeaturesFour() {
         <div className="col-xl-4 col-lg-6 col-md-6">
           <div className="feature-four__single">
             <div className="feature-four__icon">
-              <img src="assets/images/icons/feature-four-icon-5.png" alt="img" />
+              <img src={featureFourIcon5} alt="img" />
             </div>
             <h3 className="feature-four__title">
               Integrated site optimization tools
@@ -102,7 +109,7 @@ function FeaturesFour() {
         <div className="col-xl-4 col-lg-6 col-md-6">
           <div className="feature-four__single">
             <div className="feature-four__icon">
-              <img src="assets/images/icons/feature-four-icon-6.png" alt="img" />
+              <img src={featureFourIcon6} alt="img" />
             </div>
             <h3 className="feature-four__title">
               <span>Free</span>Migrate your existing site

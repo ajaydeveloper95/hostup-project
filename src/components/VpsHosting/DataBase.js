@@ -1,22 +1,27 @@
-import React from 'react'
+import React from 'react';
+import dataBase1 from "../../assets/images/shapes/database-shape-1.png"
+import dataBase2 from "../../assets/images/shapes/database-shape-2.png"
+import dataBase3 from "../../assets/images/shapes/database-shape-3.png"
+import dataBase4 from "../../assets/images/shapes/database-shape-4.png"
+import dataBase5 from "../../assets/images/shapes/database-shape-5.png"
 
 function DataBase() {
   return (
     <section className="database">
     <div className="database__shape-1 float-bob-x">
-      <img src="assets/images/shapes/database-shape-1.png" alt="img" />
+      <img src={dataBase1} alt="img" />
     </div>
     <div className="database__shape-2 float-bob-y">
-      <img src="assets/images/shapes/database-shape-2.png" alt="img" />
+      <img src={dataBase2} alt="img" />
     </div>
     <div className="database__shape-3 zoominout">
-      <img src="assets/images/shapes/database-shape-3.png" alt="img" />
+      <img src={dataBase3} alt="img" />
     </div>
     <div className="database__shape-4 float-bob-y">
-      <img src="assets/images/shapes/database-shape-4.png" alt="img" />
+      <img src={dataBase4} alt="img" />
     </div>
     <div className="database__shape-5 float-bob-x">
-      <img src="assets/images/shapes/database-shape-5.png" alt="img" />
+      <img src={dataBase5} alt="img" />
     </div>
     <div className="container">
       <h2 className="database__title">

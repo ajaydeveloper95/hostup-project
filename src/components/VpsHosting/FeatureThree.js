@@ -1,4 +1,9 @@
 import React from 'react'
+import featureThreeBg from "../../assets/images/background/feature-three-bg.jpg"
+import featureThree1 from "../../assets/images/icons/feature-three-1-1.png"
+import featureThree2 from "../../assets/images/icons/feature-three-1-2.png"
+import featureThree3 from "../../assets/images/icons/feature-three-1-3.png"
+import featureThree4 from "../../assets/images/icons/feature-three-1-4.png"
 
 function FeatureThree() {
   return (
@@ -7,7 +12,7 @@ function FeatureThree() {
             className="feature-three__bg"
             style={{
               backgroundImage:
-                "url(assets/images/background/feature-three-bg.jpg)",
+                `url(${featureThreeBg})`,
             }}
           />
           <div className="container">
@@ -25,7 +30,7 @@ function FeatureThree() {
                 <div className="feature-three__single">
                   <div className="feature-three__icon">
                     <img
-                      src="assets/images/icons/feature-three-1-1.png"
+                      src={featureThree1}
                       alt="img"
                     />
                   </div>
@@ -42,7 +47,7 @@ function FeatureThree() {
                 <div className="feature-three__single">
                   <div className="feature-three__icon">
                     <img
-                      src="assets/images/icons/feature-three-1-2.png"
+                      src={featureThree2}
                       alt="img"
                     />
                   </div>
@@ -61,7 +66,7 @@ function FeatureThree() {
                 <div className="feature-three__single">
                   <div className="feature-three__icon">
                     <img
-                      src="assets/images/icons/feature-three-1-3.png"
+                      src={featureThree3}
                       alt="img"
                     />
                   </div>
@@ -80,7 +85,7 @@ function FeatureThree() {
                 <div className="feature-three__single">
                   <div className="feature-three__icon">
                     <img
-                      src="assets/images/icons/feature-three-1-4.png"
+                      src={featureThree4}
                       alt="img"
                     />
                   </div>
