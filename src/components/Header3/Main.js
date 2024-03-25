@@ -201,7 +201,7 @@ const Header3 = () => {
             </ul>
           </nav>
           <div className="main-header-one__right">
-            <Link to="/" className="mobile-nav__toggler">
+            <Link to="#" className="mobile-nav__toggler">
               <span></span>
               <span></span>
               <span></span>

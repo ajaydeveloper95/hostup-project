@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function PricingSeven() {
   return (
@@ -19,7 +20,7 @@ function PricingSeven() {
           id="switch-toggle-tab"
         >
           <li className="month active">
-            <a href="#">Monthly</a>
+            <Link to="/#">Monthly</Link>
           </li>
           <li>
             {/* Rounded switch */}
@@ -28,7 +29,7 @@ function PricingSeven() {
             </label>
           </li>
           <li className="year">
-            <a href="#">Yearly</a>
+            <Link to="/#">Yearly</Link>
           </li>
         </ul>
         {/* /.list-inline */}
@@ -49,15 +50,15 @@ function PricingSeven() {
                     </p>
                   </div>
                   <div className="pricing-seven__btn-box">
-                    <a
-                      href="pricing.html"
+                    <Link
+                      to="/pricing"
                       className="thm-btn pricing-seven__btn"
                     >
                       <span>
                         Choose Plan
                         <i className="icon-arrow" />
                       </span>
-                    </a>
+                    </Link>
                   </div>
                   <div className="pricing-seven__points-box">
                     <h3 className="pricing-seven__points-title">
@@ -350,15 +351,15 @@ function PricingSeven() {
                     </p>
                   </div>
                   <div className="pricing-seven__btn-box">
-                    <a
-                      href="pricing.html"
+                    <Link
+                      to="/pricing"
                       className="thm-btn pricing-seven__btn"
                     >
                       <span>
                         Choose Plan
                         <i className="icon-arrow" />
                       </span>
-                    </a>
+                    </Link>
                   </div>
                   <div className="pricing-seven__points-box">
                     <h3 className="pricing-seven__points-title">
@@ -651,15 +652,15 @@ function PricingSeven() {
                     </p>
                   </div>
                   <div className="pricing-seven__btn-box">
-                    <a
-                      href="pricing.html"
+                    <Link
+                      to="/pricing"
                       className="thm-btn pricing-seven__btn"
                     >
                       <span>
                         Choose Plan
                         <i className="icon-arrow" />
                       </span>
-                    </a>
+                    </Link>
                   </div>
                   <div className="pricing-seven__points-box">
                     <h3 className="pricing-seven__points-title">
@@ -954,15 +955,15 @@ function PricingSeven() {
                     </p>
                   </div>
                   <div className="pricing-seven__btn-box">
-                    <a
-                      href="pricing.html"
+                    <Link
+                      to="/pricing"
                       className="thm-btn pricing-seven__btn"
                     >
                       <span>
                         Choose Plan
                         <i className="icon-arrow" />
                       </span>
-                    </a>
+                    </Link>
                   </div>
                   <div className="pricing-seven__points-box">
                     <h3 className="pricing-seven__points-title">
@@ -1255,15 +1256,15 @@ function PricingSeven() {
                     </p>
                   </div>
                   <div className="pricing-seven__btn-box">
-                    <a
-                      href="pricing.html"
+                    <Link
+                      to="/pricing"
                       className="thm-btn pricing-seven__btn"
                     >
                       <span>
                         Choose Plan
                         <i className="icon-arrow" />
                       </span>
-                    </a>
+                    </Link>
                   </div>
                   <div className="pricing-seven__points-box">
                     <h3 className="pricing-seven__points-title">
@@ -1556,15 +1557,15 @@ function PricingSeven() {
                     </p>
                   </div>
                   <div className="pricing-seven__btn-box">
-                    <a
-                      href="pricing.html"
+                    <Link
+                      to="/pricing"
                       className="thm-btn pricing-seven__btn"
                     >
                       <span>
                         Choose Plan
                         <i className="icon-arrow" />
                       </span>
-                    </a>
+                    </Link>
                   </div>
                   <div className="pricing-seven__points-box">
                     <h3 className="pricing-seven__points-title">

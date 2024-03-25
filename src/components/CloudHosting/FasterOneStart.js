@@ -1,6 +1,7 @@
 import React from 'react';
 import fasterOneshape1 from "../../assets/images/shapes/faster-one-shape-1.png"
 import fasterOneImg from "../../assets/images/resources/faster-one-img-1.png"
+import { Link } from 'react-router-dom';
 
 function FasterOneStart() {
   return (
@@ -63,12 +64,12 @@ function FasterOneStart() {
                 </div>
               </li>
             </ul>
-            <a href="about.html" className="thm-btn faster-one__btn">
+            <Link to="/about" className="thm-btn faster-one__btn">
               <span>
                 Get Started
                 <i className="icon-arrow" />
               </span>
-            </a>
+            </Link>
           </div>
         </div>
       </div>

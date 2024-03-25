@@ -4,8 +4,6 @@ import underConstruction1 from "../../assets/images/resources/under-construction
 function Main() {
   return (
     <>
-  <div className="custom-cursor__cursor" />
-  <div className="custom-cursor__cursor-two" />
   <div className="page-wrapper">
     <div className="under-construction gray-bg">
       <div className="container">

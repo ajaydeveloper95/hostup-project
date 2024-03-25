@@ -1,5 +1,6 @@
 import React from "react";
 import PageBannerThreeImg from "../../assets/images/resources/page-banner-three-img-4.png"
+import { Link } from "react-router-dom";
 
 function PageBanner() {
   return (
@@ -41,15 +42,15 @@ function PageBanner() {
                   Starting at $9.99/mo
                 </h3>
                 <div className="page-banner-three__btn-box">
-                  <a
-                    href="about.html"
+                  <Link
+                    to="/about"
                     className="thm-btn page-banner-three__btn"
                   >
                     <span>
                       Get Started
                       <i className="icon-arrow" />
                     </span>
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>

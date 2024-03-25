@@ -1,6 +1,7 @@
 import React from "react";
 import getStartedShapeOne from "../../assets/images/shapes/get-started-shape-1.png";
 import GetStarterImg from "../../assets/images/resources/get-started-img-1.png";
+import { Link } from "react-router-dom";
 
 function GetFasterOne() {
   return (
@@ -30,12 +31,12 @@ function GetFasterOne() {
                 fast, and grow strong! Get your plan with a 14-day money-back
                 guarantee.
               </p>
-              <a href="about.html" className="thm-btn get-started__btn">
+              <Link to="/about" className="thm-btn get-started__btn">
                 <span>
                   Get Started
                   <i className="icon-arrow" />
                 </span>
-              </a>
+              </Link>
             </div>
           </div>
         </div>

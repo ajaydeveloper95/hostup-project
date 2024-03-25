@@ -1,5 +1,6 @@
 import React from 'react';
 import PageHeaderImg1 from "../../assets/images/resources/page-header-1.png"
+import { Link } from 'react-router-dom';
 
 function Banner() {
   return (
@@ -16,15 +17,15 @@ function Banner() {
               Our award-winning support team is here for you 24/7/365.
             </h2>
             {/* /.page-banner-one__title */}
-            <a
-              href="contact.html"
+            <Link
+              to="/contact"
               className="thm-btn page-banner-one__btn"
             >
               <span>
                 Get Started
                 <i className="icon-arrow" />
               </span>
-            </a>
+            </Link>
           </div>
           {/* /.page-banner-one__content */}
         </div>

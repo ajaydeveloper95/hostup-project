@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 function Faq() {
   return (
@@ -582,7 +583,7 @@ function Faq() {
                     aria-expanded="false"
                     aria-controls="faq-one__accordion-3__collapse-4"
                   >
-                    What’s the best way to find a cheap domain?
+                    Whats the best way to find a cheap domain?
                     <span className="faq-one__accordion__icon" />
                   </button>
                 </h2>
@@ -669,9 +670,9 @@ function Faq() {
         {/* /.tab-content */}
         <div className="faq-one__bottom text-center">
           Can't find an answer to your question?
-          <a href="contact.html">
+          <Link to="/contact">
             <span>Submit request</span> <i className="icon-arrow" />
-          </a>
+          </Link>
         </div>
         {/* /.faq-one__bottom */}
       </div>
